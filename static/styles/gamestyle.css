@@ -1,0 +1,40 @@
+div.roller_time
+{
+    
+    font-size: 50px;
+	color: black;
+	line-height: 1.71;
+    text-align: center;
+}
+
+.roller_result
+{
+   
+    
+    background-color: lightblue;
+	color: red;
+	text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    
+   
+}
+button.a
+{
+    display: inline;
+    font-size: 50px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 1px solid blue; 
+       
+}
+
+
+div.predict
+{
+    text-align: center;
+}

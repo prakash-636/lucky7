@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/gamestyle.css' %}">
+    <title>lucky7</title>
+</head>
+<body bgcolor="lightgray"> 
+    <h3>Lucky7</h3>
+
+    <div class="roller_time">
+        00:00
+    </div><br><br><br>
+    <div class="predict">
+    
+        <button class="a">1- 6 </button>
+        <button class="a">7</button>
+        <button class="a">8-12</button>
+    
+    </div><br><br>
+    <div class="roller_result">
+    <h2>{{dicevalue}}</h2>
+    <h5>({{Dicev1}} , {{Dicev2}})</h5>
+    </div>
+    
+</body>
+</html>
